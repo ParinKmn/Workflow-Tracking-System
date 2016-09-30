@@ -1,0 +1,26 @@
+@import "../colors/colors";
+
+.process-container{
+  position: relative;
+  margin-bottom: 4em;
+
+  .process-container-head{
+    position: relative;
+    color: $light-gray;
+  }
+
+  .process-container-body{
+    p{
+      font-size: 1.3em;
+    }
+  }
+}
+
+.section-details{
+  position: relative;
+  margin-bottom: 4em;
+
+  p {
+    font-size: 1.3em;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "documenttrackingsystem",
+  "authors": [
+    "skriptfu <skriptfuke@gmail.com>"
+  ],
+  "description": "document tracking system web application",
+  "main": "build/index.html",
+  "keywords": [
+    "document",
+    "tracking",
+    "system"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

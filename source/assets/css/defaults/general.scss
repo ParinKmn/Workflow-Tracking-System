@@ -1,0 +1,32 @@
+@import "../colors/colors";
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.container {
+  // width: 100% !important;
+}
+
+
+//setting a bottom border
+.border{
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 1em;
+}
+
+
+.padding-2em{
+  padding: 3em;
+}
+
+.body-content {
+  padding-top: 50px !important;
+  margin-left: 15em !important;
+  margin-top: 1.5em !important;
+  width: 85% !important;
+}
