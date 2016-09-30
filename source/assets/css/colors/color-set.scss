@@ -1,0 +1,45 @@
+@import "colors";
+
+.body-background{
+  background: $light-blue-background;
+}
+
+.white-text{
+  color: $white;
+}
+
+.red-text{
+  color: $red-text;
+}
+
+.teal-text{
+  color: $teal-text;
+}
+
+.blue-text{
+  color: $button-blue;
+}
+
+.red-background{
+  background: $red-text;
+}
+
+.teal-background{
+  background: $teal-text;
+}
+
+.blue-background{
+  background:$button-blue;
+}
+
+.border1{
+  border-left: 4px solid $red-text;
+}
+
+.border2{
+  border-left: 4px solid $teal-text;
+}
+
+.border3{
+  border-left: 4px solid $button-blue;
+}

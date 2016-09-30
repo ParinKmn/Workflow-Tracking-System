@@ -1,0 +1,26 @@
+{
+  "name": "dts",
+  "version": "1.0.0",
+  "description": "document tracking system",
+  "main": "build/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "document",
+    "tracking",
+    "system"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-inject": "^4.1.0",
+    "gulp-preprocess": "^2.0.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "wiredep": "^4.0.0"
+  }
+}

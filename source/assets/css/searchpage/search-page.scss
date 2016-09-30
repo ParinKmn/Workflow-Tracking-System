@@ -1,0 +1,43 @@
+@import "../box-shadow/box-shadow";
+@import "../colors/colors";
+
+.search-box{
+  position: relative;
+
+  .lead-text{
+    position: relative;
+    margin-bottom: 4em;
+  }
+
+  .search-box-details{
+    position: relative;
+    @include boxShadowHelper(1);
+
+    .search-icon{
+      position: absolute;
+      right: 0.5em;
+      top: 0.5em;
+      z-index: 1000;
+      color: $light-gray;
+    }
+
+    .search-btn{
+      position: relative;
+      height: 4em;
+      border: none !important;
+      outline: none !important;
+    }
+  }
+
+  .search-box-results{
+    background: $white;
+    @include boxShadowHelper(1);
+    height: 10em;
+    .search-box-header{
+      background: $head-blue;
+      color: $white;
+      padding: 0.5em;
+    }
+  }
+
+}

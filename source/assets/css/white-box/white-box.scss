@@ -1,0 +1,86 @@
+@import "../colors/colors";
+@import "../box-shadow/box-shadow";
+
+.container-box{
+  position: relative;
+  background-color: $white;
+  @include boxShadowHelper(1);
+  margin-bottom: 4em;
+  .container-box-header{
+    position: relative;
+    margin-bottom: 3em;
+  }
+
+  .search-box-move{
+    margin-top: 3em;
+  }
+
+  .process-section{
+    position: relative;
+    padding: 3em 0em 3em;
+    margin-bottom: 3em;
+    border-bottom: 2px solid #bdbdbd;
+    clear: both;
+
+    h4{
+      margin-bottom: 3em;
+    }
+  }
+
+  .container-head{
+    border-bottom: 1px solid #eee;
+    padding: 0.5em;
+  }
+
+  .container-icon{
+    padding: 2em;
+  }
+
+  .container-number{
+    p{
+      margin: 0.1em !important;
+    }
+
+    h2 {
+      margin: 0 !important;
+    }
+  }
+
+  .container-hyperlink{
+    padding: 1em;
+    a{
+      color: $white;
+      padding: 0.5em;
+    }
+  }
+
+
+
+  h2{
+    font-weight: 700;
+    font-size: 4em;
+  }
+
+
+  .activities{
+    position: relative;
+    margin-top: 2em;
+    .activity{
+      .activity-time{
+        font-weight: 300;
+        color: $light-gray;
+        font-size: 0.9em;
+      }
+    }
+  }
+}
+
+
+.container-box-purple{
+  background: $indigo !important;
+}
+
+
+.search-box-front{
+  @include boxShadowHelper(1);
+}

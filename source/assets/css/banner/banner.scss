@@ -1,0 +1,25 @@
+@import "../colors/colors";
+@import "../box-shadow/box-shadow";
+
+.blue-intro{
+  background: $blue-intro;
+  @include boxShadowHelper(1);
+}
+
+.banner-content {
+  position: relative;
+  margin-top: 5em;
+  margin-left: 14em;
+  padding: 2em;
+  color: #fff;
+
+  .quick-link-btn{
+    margin: 2em 0em;
+    padding: 0.5em;
+    a{
+      color: $white;
+      padding: 0.5em;
+      font-size: 1.2em;
+    }
+  }
+}

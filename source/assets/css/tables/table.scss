@@ -1,0 +1,19 @@
+@import "../colors/colors";
+
+.table{
+  tbody{
+    tr{
+      height: 4em;
+      td{
+        padding: 1.5em 0;
+      }
+    }
+  }
+}
+.table-button{
+  text-align: center;
+  border: 0.1em solid #bdbdbd;
+  padding: 0.7em;
+  border-radius: 2px;
+  margin-right: 0.5em;
+}

@@ -1,0 +1,16 @@
+@import "../colors/colors";
+@import "../box-shadow/box-shadow";
+
+@mixin button {
+  @include boxShadowHelper(3) ;
+  padding: 1em;
+}
+
+.bluebutton{
+  @include button ;
+  background: $button-blue;
+
+  a{
+    color: $white;
+  }
+}
